@@ -1,22 +1,23 @@
 # 这是订阅源列表，每行一个订阅地址
 # This is a list of subscription sources, with one subscription address per line
+# 更新时间：2026-01-04 (已移除失效源 xzw832 和 vbskycn)
 
-# ========== 核心综合源（必保留）==========
-https://raw.githubusercontent.com/Guovin/iptv-database/master/result.txt
+# ========== 核心综合源（5个高可用源）==========
+
+# 1. iptv-org (全球最大开源库，稳定性最高)
 https://raw.githubusercontent.com/iptv-org/iptv/gh-pages/countries/cn.m3u
-https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/merged_output.txt
-https://raw.githubusercontent.com/yuanzl77/IPTV/master/live.txt
-https://raw.githubusercontent.com/YueChan/Live/main/APTV.m3u
-https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u
 
-# ========== IPv6 专用源（保留2个）==========
-https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv6.m3u
+# 2. YueChan/Live (质量极高，整理规范)
+https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/IPTV.m3u
+
+# 3. fanmingming (IPv6 资源最丰富，国内访问快)
 https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u
 
-# ========== 补充源（可选2个）==========
-https://raw.githubusercontent.com/xzw832/cmys/main/S_CCTV.txt
-https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.txt
+# 4. YanG-1989/m3u (聚合源，频道覆盖广)
+https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u
 
+# 5. kimwang1978 (纯文本格式，解析快，作为补充)
+https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/merged_output.txt
 
 
 [WHITELIST]
