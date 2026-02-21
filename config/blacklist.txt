@@ -2,3 +2,26 @@
 # This is the interface blacklist list, the interface matching the keyword will be blocked, one keyword line
 /audio/
 bxtv.3a.ink
+173.208.176.178
+108.181.32.169
+kxrj.site
+www.zzlag.top
+mail.petzhu.top
+gouwu.pthv.gitv.tv
+iptv.0564.org
+hotelplay.net
+ldncctvwbndhwy.cntv.myhwcdn.cn
+itv.nctv.top
+dns.yiandrive.com
+www.unraidd.top
+ipv4.sunjianwu.fun
+mh0.asia
+zhibo.hkstv.tv
+cc-ynbit-wszhibo.ifengli.com
+www.furymax.top
+live-hls-web-ajb.getaj.net
+ygbh.live
+stream.nxtv.com.cn
+stream.qhbtv.com
+lives.jnnews.tv
+13457610200.8866.org
