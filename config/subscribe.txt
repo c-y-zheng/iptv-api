@@ -9,6 +9,7 @@ https://raw.githubusercontent.com/iptv-org/iptv/gh-pages/countries/cn.m3u
 
 # 2. YueChan/Live (质量极高，整理规范)
 https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/IPTV.m3u
+https://github.com/YueChan/Live/blob/main/Hunan.txt
 
 # 3. fanmingming (IPv6 资源最丰富，国内访问快)
 https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u
