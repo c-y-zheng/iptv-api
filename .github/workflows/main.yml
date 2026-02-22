@@ -31,8 +31,8 @@ jobs:
           python-version: '3.13'
           update-environment: true
           cache: 'pipenv'
-      - name: Install FFmpeg
-        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      #- name: Install FFmpeg
+      #  run: sudo apt-get update && sudo apt-get install -y ffmpeg
       - name: Install pipenv
         run: pip3 install --user pipenv
       - name: Install dependecies
@@ -41,6 +41,9 @@ jobs:
         run: pipenv run dev
       - name: Commit and push if changed
         run: |
+          # 【新增】将 output 目录下的结果文件移动到根目录，方便 GitHub Pages 读取
+          mv output/user_result.txt ./result.txt
+          mv output/user_result.m3u ./result.m3u
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add .
